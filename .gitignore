@@ -1,0 +1,53 @@
+# Xcode
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcshareddata/xcschemes/*
+!*.xcodeproj/xcshareddata/xcschemes/*.xcscheme
+
+# Breakpoints
+*.xcodeproj/xcuserdata/*.xcuserdatad/xcdebugger/*
+*.xcworkspace/xcuserdata/*.xcuserdatad/xcdebugger/*
+
+# Core Data
+*.dtStore
+*.DS_Store
+
+# Derived data & build artifacts
+DerivedData/
+build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+*.xcworkspace
+
+# Carthage
+Carthage/
+Carthage/Build/
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+Package.pins
+.build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# User data
+*.DS_Store
+.idea/
+*.swp
+*.orig
+*.rej
+*.bak
